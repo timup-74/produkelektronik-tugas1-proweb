@@ -1,0 +1,54 @@
+Style · CSS
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 40px;
+}
+ 
+fieldset {
+  width: 420px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+}
+ 
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 5px;
+}
+ 
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+ 
+.row label {
+  width: 160px;
+}
+ 
+.row input[type="text"],
+.row input[type="password"] {
+  flex: 1;
+  padding: 6px;
+  font-size: 14px;
+}
+ 
+.options label {
+  display: block;
+  margin-bottom: 4px;
+  width: auto;
+}
+ 
+.options input {
+  margin-right: 6px;
+}
+ 
+.buttons {
+  margin-top: 10px;
+}
+ 
+.buttons button {
+  padding: 6px 18px;
+  margin-right: 10px;
+  font-size: 14px;
+}
